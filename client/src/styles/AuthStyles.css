@@ -8,7 +8,13 @@
   min-height: 70vh;
   flex-direction: column;
   background-color: #ffdee9;
-  background-image: linear-gradient(0deg, #ffdee9 0%, #9407b0 100%);
+  background-image: linear-gradient(0deg, #ffdee9 0%, #bfa6c4 100%);
+  background-image: url(../img/hd2.jpg);
+  height: 80%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form-container form {
@@ -61,3 +67,4 @@
 .forgot-btn:hover {
   color: white !important;
 }
+
