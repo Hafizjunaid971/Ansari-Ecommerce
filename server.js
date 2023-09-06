@@ -23,7 +23,7 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoutes);
 app.use("/api/v1/product", productRoutes);
 
-
+//MONGO_URL="mongodb://localhost:27017/Ansari_Techoinfo_Ecommerce"
 
 //rest api
 app.get('/',(req,res)=>{

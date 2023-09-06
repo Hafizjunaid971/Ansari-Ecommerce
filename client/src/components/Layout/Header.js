@@ -3,6 +3,7 @@ import {NavLink,Link} from 'react-router-dom'
 import { BiCycling, BiPhoneCall, BiSupport } from "react-icons/bi";
 import {useAuth} from "../../context/auth"
 import toast from "react-hot-toast";
+import SearchInput from "../Form/SearchInput";
 const Header = () => {
   const [auth, setAuth] = useAuth();
 
@@ -26,7 +27,7 @@ const Header = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
    
       <Link to='/' className="navbar-brand" ><BiCycling />  shoping Junaid</Link>
-        
+      <SearchInput />
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
           <NavLink to='/' className="nav-link" aria-current="page" href="#">Home</NavLink>
